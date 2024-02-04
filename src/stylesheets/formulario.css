@@ -1,0 +1,19 @@
+.contenedor-formulario {
+    background-color: white;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+}
+input {
+    display: flex;
+    height: 40px;
+    font-size: 15px;
+}
+.btn-subir {
+    padding-top: 5px;
+    padding-bottom:5px;
+    font-size: 15px;
+}

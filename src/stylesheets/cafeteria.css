@@ -1,0 +1,40 @@
+.contenedor-cafeteria {
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 18px auto;
+    border: 2.3px solid #333;
+    width: 96%;
+    background-color: #FEFEFA;
+}
+p {
+    margin: 5px 4px;
+}
+.fila {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0C1618;
+}
+.primera, .segunda, .tercera {
+    width: 100%;
+    border-bottom: 1px solid #0C1618;
+}
+.contenedor-eliminar {
+    background-color: #F2003C;
+    color: whitesmoke;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 10px;
+}
+
+.nombre {
+    margin-left: 2px;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Satisfy', cursive;
+}
+.rating {
+    font-size: 25px;
+}
