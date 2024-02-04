@@ -42,11 +42,17 @@ function Lista() {
         if (cafeteria.nombre.trim() && cafeteria.descripcion.trim() ) {
             cafeteria.nombre = cafeteria.nombre.trim();
             cafeteria.descripcion = cafeteria.descripcion.trim();
-
-            const cafeteriaExistente = cafeterias.find(c => c.nombre === cafeteria.nombre);
-            if (cafeteriaExistente) {
+          
+            const nombreExistente = cafeterias.find(c => c.nombre === cafeteria.nombre);
+            if (nombreExistente) {
                 alert("Ya existe una cafetería con este nombre");
                 return;
+            }
+
+            const ubicacionExistente = cafeterias.find (c => c.ubicacion === cafeteria.ubicacion );
+            if (ubicacionExistente) {
+              alert("Ya existe una cafeteria con esta ubicacion");
+              return;
             }
 
             const cafeteriasActualizadas = [...cafeterias, cafeteria];

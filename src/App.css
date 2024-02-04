@@ -1,10 +1,15 @@
-@media (max-width: 1081px) {
+@media (max-width: 1000px) {
   .titulo {
+    padding: 15px 30px ;
+    flex-direction: row;
     font-size: 30px;
-    width: 40%;
-    
     text-align: center;
     justify-content: center;
+  }
+  .contenedor-principal {
+    flex-direction: column;
+    min-height: 960px;
+    flex-wrap: wrap;
   }
 }
 * {
@@ -36,6 +41,24 @@ html,body {
   border-radius: 30px;
   border: 1px solid whitesmoke;
 }
+ .intro {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 55px 30px 10px 30px;
+}
+.titulo-parrafo {
+  font-size: 30px;
+  font-family:'Lucida Sans', sans-serif;
+}
+.parrafo {
+  font-size: 19px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 70px;
+  margin-right: 70px ;
+} 
 .contenedor-principal {
   border: 4px solid #3AA8C1;
   display: flex;
